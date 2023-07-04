@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div id="box">
+        <div id="arrow" >
+            <button id="pre">Pre</button>
+            <button id="next">Next</button>
+        </div>
+
+            <h2 id="questionBox" > 1) this is a damy question ?  </h2>
+            <div class="row">
+                <input  id="option1" class="options"   type="radio" value="a" name="option"  >
+                <label for="option1"> option 1</label>
+            </div>          
+            <div class="row">
+                <input id="option2"  class="options"  type="radio" value="b" name="option" >
+                <label for="option2"> option 2</label>
+            </div>          
+            <div class="row">
+                <input type="radio"  class="options"  id="option3" value="c" name="option" >
+                <label for="option3"> option 3</label>
+            </div>          
+            <div class="row">
+                <input type="radio"  class="options"  id="option4" value="d" name="option" >
+                <label for="option4"> option 4</label>
+            </div>          
+            <button id="btn" onclick="submitQuiz()" >Submit</button>
+        
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

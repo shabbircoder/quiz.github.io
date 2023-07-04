@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 118, 159);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    width: 40%;
+    /* height: 400px; */
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px gray;
+}
+
+.row{
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0;
+    /* padding: 10px; */
+
+}
+
+#btn{
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(17, 151, 151);
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#arrow{
+    display: flex;
+    padding: 0 10px 10px 10px;
+    /* font-size: 25px; */
+    justify-content: space-between;
+}
+#pre , #next {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 3px 12px ;
+}
+
+
+@media only screen and (max-width : 768px){
+    
+/* element.style { */
+
+#box {
+    width: 75%;
+    /* height: 500px; */
+    padding: 45px;
+    }
+
+.row {
+    font-size: 20px;
+        width: 100%;
+        margin: 3rem;
+        margin-left: 0;
+        /* padding: 10px; */
+    }
+#btn {
+        padding: 5px;
+        font-size: 36px;
+}
+
+
+}
